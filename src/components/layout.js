@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
     <div>
       <header>{title}</header>
       <main>{children}</main>
-      <footer>© {new Date().getFullYear()}, Anders Øksendal Larsen</footer>
+      <footer>Anders Øksendal Larsen &copy; {new Date().getFullYear()}</footer>
     </div>
   )
 }
