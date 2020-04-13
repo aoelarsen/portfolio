@@ -9,6 +9,13 @@ const GlobalStyles = createGlobalStyle`
     --dark-green: #00331D ;
     --black: #252525;    
   }
+
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+  }
 `
 
 export default GlobalStyles

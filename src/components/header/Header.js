@@ -1,16 +1,15 @@
 import React from "react"
+
+import HeaderWrap from "./HeaderWrap"
+import Logo from "../logo/Logo"
 import MainNav from "../navigation/MainNav"
 
 const Header = () => {
   return (
-    <header>
-      <div>
-        <strong>Anders Øksendal Larsen</strong>
-        <br />
-        Front-end developer - under development
-      </div>
+    <HeaderWrap>
+      <Logo />
       <MainNav />
-    </header>
+    </HeaderWrap>
   )
 }
 
