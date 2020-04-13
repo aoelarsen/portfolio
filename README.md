@@ -9,4 +9,5 @@ in the making...
 - Add Portfolio
 - Add "testing grounds" or "lab" with tests of different technologies
 - Add a blog-section... perhaps... well, it's a definitely maybe
--
+- Add Webmentions
+- Add JSON Feed
