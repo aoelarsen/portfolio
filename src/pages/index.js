@@ -13,7 +13,6 @@ const IndexPage = () => (
       projects, either as a part of my portfolio, or as experiments where I test
       different things.
     </p>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

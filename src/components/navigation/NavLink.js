@@ -5,10 +5,15 @@ const NavLink = styled(Link)`
   padding: 0.5rem;
   color: inherit;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  transition: color 1s ease-in;
 
   &:hover {
-    box-shadow: inset 0px -2px 0px 0px var(--dark-green);
+    color: var(--light-green);
+    box-shadow: inset 0px -2px 0px 0px var(--light-green);
+  }
+  &[aria-current="page"] {
+    font-weight: 700;
   }
 `
 
