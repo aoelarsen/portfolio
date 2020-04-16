@@ -24,6 +24,10 @@ const GlobalStyles = createGlobalStyle`
     color: var(--black);
   }
 
+  p {
+    line-height: 130%;
+  }
+
 `
 
 export default GlobalStyles

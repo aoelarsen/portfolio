@@ -9,7 +9,7 @@ import Footer from "../footer/Footer"
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div style={{ maxWidth: "1920px", margin: "0 auto" }}>
       <GlobalStyles />
       <Header />
       <MainWrap>{children}</MainWrap>

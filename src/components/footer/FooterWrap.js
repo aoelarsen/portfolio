@@ -1,12 +1,8 @@
 import styled from "styled-components"
 
 const FooterWrap = styled.footer`
+  width: 100%;
   padding: 1rem;
-  margin: 0 auto;
-  & p {
-    line-height: 120%;
-    font-size: 0.9rem;
-  }
 `
 
 export default FooterWrap
