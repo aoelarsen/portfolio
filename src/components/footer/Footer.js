@@ -8,7 +8,7 @@ const Footer = () => {
     <FooterWrap>
       <FooterInner>
         <p>
-          Design and code &copy; 2020 - {new Date().getFullYear()} Anders
+          Design and code &copy; 2020 &ndash; {new Date().getFullYear()} Anders
           Øksendal Larsen{" "}
         </p>
         <p>

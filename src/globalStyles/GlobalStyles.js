@@ -26,6 +26,7 @@ const GlobalStyles = createGlobalStyle`
 
   p {
     line-height: 130%;
+    max-width: 50rem;
   }
 
 `

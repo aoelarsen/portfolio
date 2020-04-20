@@ -4,17 +4,18 @@ import PropTypes from "prop-types"
 
 import GlobalStyles from "../../globalStyles/GlobalStyles"
 import MainWrap from "./MainWrap"
+import GridBox from "./GridBox"
 import Header from "../header/Header"
 import Footer from "../footer/Footer"
 
 const Layout = ({ children }) => {
   return (
-    <div style={{ maxWidth: "1920px", margin: "0 auto" }}>
+    <GridBox margin="0 auto" maxWidth="1920px">
       <GlobalStyles />
       <Header />
       <MainWrap>{children}</MainWrap>
       <Footer />
-    </div>
+    </GridBox>
   )
 }
 

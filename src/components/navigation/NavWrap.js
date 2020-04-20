@@ -6,7 +6,9 @@ const NavWrap = styled.nav`
   max-width: 96vw;
 
   @media screen and (min-width: 900px) {
+    width: 70%;
     margin: 0;
+    justify-self: end;
   }
 `
 
