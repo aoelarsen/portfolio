@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: 'Allegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--black);
   }
 

@@ -10,7 +10,7 @@ import Footer from "../footer/Footer"
 
 const Layout = ({ children }) => {
   return (
-    <GridBox margin="0 auto" maxWidth="1920px">
+    <GridBox margin="0 auto" maxWidth="1200px">
       <GlobalStyles />
       <Header />
       <MainWrap>{children}</MainWrap>
